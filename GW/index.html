@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GW - 1</title>
+</head>
+
+<body>
+    <h1>Employee Interests Survey form</h1>
+    <form>
+        <div>
+            <label for="name">Enter Your name</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label for="department">Enter your Department</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label for="textarea">Tell us a little about yourself:</label>
+            <input type="textarea" required>
+        </div>
+
+        <div>
+            <label for="vote">Do you exercise?</label>
+            <label for="radio">yes</label><input type="radio">
+            <label for="radio">no</label><input type="radio">
+        </div>
+
+        <div>
+            <label for="How do you like to read about your favortie topic?"></label>
+            <label for="checkbox">Book</label><input type="checkbox">
+            <label for="checkbox">Online resource</label><input type="checkbox">
+            <label for="checkbox">Phone apps</label><input type="checkbox">
+            <label for="checkbox">Magazine</label><input type="checkbox">
+        </div>
+
+        <div>
+            <label for="list">What kind of movie do you like? </label>
+            <input list="movie" name="movie" />
+            <datalist id="movie">
+                <option value="The wolf of wallStreet">The wolf of wallStreet</option>
+                <option value="Fifty Shades">Fifty shades</option>
+                <option value="Ford vs Ferrari">Ford vs Ferrari</option>
+                <option value="Allied">Allied</option>
+                <option value="007">007</option>
+                <option value="The man from uncle">The man from uncle</option>
+            </datalist>
+        </div>
+
+    </form>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

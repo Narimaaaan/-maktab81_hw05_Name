@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.anime {
+    display: none;
+    padding: 0.5rem;
+    background-color: rgb(12, 143, 62);
+    color: #fff;
+    width: 12rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    
+}
+
+.beginAnime{
+    display: block;
+    animation-name: alarm;
+    animation-duration: 5s;
+    animation-delay: 1;
+}
+
+/* .close-btn {
+    width: 0.5rem;
+    height: 0.5rem;
+    cursor: pointer;
+    color: #fff;
+} */
+
+
+.main {
+
+    color: #fff;
+    margin: auto auto;
+}
+.main input {
+    background-color: rgb(238, 104, 2);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border-radius: 0.3rem;
+    margin: auto auto;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+@keyframes alarm {
+    0% {
+        transform: translateX(15rem);
+    }
+
+    50% {
+        transform: translateX(-24rem);
+    }
+
+    100% {
+        transform: translateX(15rem);
+    }
+}

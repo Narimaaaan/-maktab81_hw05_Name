@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    background-image: linear-gradient(90deg, rgb(89, 180, 241), rgba(240, 244, 247, 0.3) 77%);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+
+}
+
+article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+aside {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+aside p {
+    text-align: left;
+}
+
+div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 70px;
+}
+
+
+/*ghobadiyanamirreza@gmail.com
+farzad292.j@gmail.com*/

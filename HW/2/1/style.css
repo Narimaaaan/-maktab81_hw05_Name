@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(219, 217, 217);
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: auto auto;
+    width: 25rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.header {
+    height: 3rem;
+}
+
+
+.prof p{
+    display: inline;
+}
+
+
+#nasa-logo {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 3rem;
+}
+
+#nasa-wall {
+    width: 24rem;
+    height: 20rem;
+    margin-bottom: 0.5rem;
+}
+
+.accessibility {
+    margin-bottom:0.5rem ;
+}
+
+#like,
+#direct {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.para span{
+    color: gray;
+    cursor: pointer;
+}
+
+#save {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 18.5rem;
+}
+
+.view,
+.para
+ {
+    margin-bottom: 0.5rem;
+}
+
+.comment {
+    color: gray;
+    margin-bottom: 0.5rem;
+}
+
+.date {
+    font-size: 0.6rem;
+    color: gray;
+}
+

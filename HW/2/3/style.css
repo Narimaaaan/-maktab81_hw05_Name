@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: rgba(131, 129, 146, 0.801);
+    flex-direction: column;
+}
+
+.iran-flag,
+.korean-flag {
+    width: 4rem;
+    height: 3rem;
+}
+
+.match-facts {
+    background-color: rgb(26, 24, 41);
+    display: flex;
+    width: 40rem;
+    margin: auto auto;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px rgb(20, 20, 20);
+
+}
+
+.korean {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.iran {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.activity {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.korean p,
+.iran p,
+.activity p {
+    display: block;
+    color: rgb(167, 164, 164);
+}
+
+.data-i,
+.data-k {
+    margin-top: 3.5rem;
+}
+
+.data-i,
+.data-k {
+    margin-left: -2.5rem;
+}
+
+
+.data-a {
+    text-align: center;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+ .data-a {
+    margin-top: 2.3rem;
+ }
+
+
+/* .data-i,
+.iran-flag {
+    margin-left: 10rem;
+} */

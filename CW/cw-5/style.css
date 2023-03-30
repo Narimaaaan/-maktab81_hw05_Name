@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-color: rgba(236, 117, 96, 0.61); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* background-color: rgb(2, 2, 51); */
+    background-color: rgba(236, 117, 96, 0.61);
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calcolator {
+    background-color: rgb(34, 47, 60);
+    box-shadow: 5px 5px 10px rgb(36, 35, 35);
+    width: 17rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.inputs {
+    margin: 0.8rem;
+    padding: 0.5rem;
+    color: #fff;
+}
+
+#outPut  {
+    background-color:rgba(10, 10, 19, 0.37);
+    width: 100%;
+    height: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    border-radius: 0.3rem;
+}
+
+
+.inputs div {
+    width: 100%;
+    padding: 0.4rem;
+
+}
+
+#txtInput {
+    background-color: rgba(10, 10, 19, 0.37);
+    font-size: 1rem;
+    outline: none;
+    height:2.5rem;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.row {
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.row input {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    box-shadow: 4px 4px 6px #11181fa2;
+    background-color: #233340;
+    color: white;
+    border: none;
+    /* margin-bottom: 20px; */
+}
+
+
+.row-5 {
+    width: 12rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+
+.row-5 input {
+    border: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    box-shadow: 3px 3px 6px #11181fa2;
+    background-color: #233340;
+    color: white;
+    /* margin-bottom: 20px; */
+}
+
+#equal {
+    width: 5.5rem;
+    height: 2.5rem;
+    background-color: #ed802e;
+}
+
+#simbol {
+    color: #ed802e;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
